@@ -9,7 +9,7 @@ const UserContext = React.createContext();
 axios.defaults.withCredentials = true;
 
 export const UserContextProvider = ({ children }) => {
-  const serverUrl = "http://localhost:8000"; // reemplazar por: http://localhost:8000 , para despliegue local
+  const serverUrl = "https://taskmanager-e0lr.onrender.com"; // reemplazar por: http://localhost:8000 , para despliegue local
 
   const router = useRouter();
 
