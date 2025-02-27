@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Rutas de dependencia
+/.pnp/
+.pnp.js
+
+# Testing
+/coverage/
+
+# Build
+/build/
+
+# añadir .env si se requiere
+
+
+# IDEs y editores
+/.idea/
+/.vscode/
+*.sublime-*
+*.swp
